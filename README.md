@@ -2,6 +2,8 @@
 
 ### Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
 
+Aretemis Financial is an instituion that mananges personal finances for their clients in the form of savings, investment, retirement, and insurance accounts. They have hired our company, Global Rain, to develop an application that will allow their clients to upload files and access their accounts. One of the main concerns that Artemis Financila rightly has is security, specifically when it comes to the verification of data tranfers within the application.
+
 
 ### What did you do particularly well in identifying their software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
 
