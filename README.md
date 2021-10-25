@@ -4,11 +4,9 @@
 
 Aretemis Financial is an instituion that mananges personal finances for their clients in the form of savings, investment, retirement, and insurance accounts. They have hired our company, Global Rain, to develop an application that will allow their clients to upload files and access their accounts. One of the main concerns that Artemis Financila rightly has is security, specifically when it comes to the verification of data tranfers within the application.
 
-
 ### What did you do particularly well in identifying their software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
 
 I believe I did well in using the Maven Dependency check to identify security vulnerabilities. For this particular project, updated the spring-boot-parent version reduced the number of detected vulnerabilities from 41 to 2, and the two that were detected were not considered serious vulnerabilities. I also created a checksum value using a secure cipher and hash algorithm. It is important to code securley because when confidential data is at stake, it needs to be secure and protected from attackers. Customers and clients place their trust in companies that will keep their data safe, so ensuring that software is secure will help to ensure that the company's well-being is also secure.
-
 
 ### What about the process of working through the vulnerability assessment did you find challenging or helpful?
 The most challenging aspect of the vulnerability assesement was determining which dependencies the application was or was not using. This was important to know when evaluating which vulnerabilites were considered false positives. Updating the spring-boot-parent version to the most recent release definitely helped with narrowing this list of possible false positives down.
@@ -17,10 +15,10 @@ The most challenging aspect of the vulnerability assesement was determining whic
 I approached the need to increase layers of security by using encryption and hashing algorithms to create a more securte application in addition to an SSL certifiacte and keystore to ensure that data tranferred within the application was secure. I also ensured that the application's dependencies were free of critical vulnerabilities using a vulnerability asessement. In the future, I will use these same techniques and do a manual code review to ensure that there are no vulnerabilities and if there are, I will use appropriate encryption and hashing algorithms to mitigate those vulnerabilites. 
 
 ### How did you ensure the code and software application were functional and secure? After refactoring code, how did you check to see whether you introduced new vulnerabilities?
-I tested each aspect 
-
+I ensured that the code and software were functional and secure by running the code and verifying that it worked by checking the application in a browser. Opening the program in a browser showed me that the application was running with the proper encryption algrothim and the webpage opened with an SSL certificate. If I encountered any errors or unexpected outputs, I made changes to my refactored code and tested again by running the application to make sure that everything was running as it should.
 
 ### What resources, tools, or coding practices did you employ that you might find helpful in future assignments or tasks?
-
+I found the instructor's video demonstrations throughout the course to be extremely helpful in understanding the material and especially how to adress the tasks given to me on assignments. Documentation about the spring framework and Maven dependency checks were also extremely helpful. In the future, I will likely utilize these same resources when I come across similar questions or situations that call for doing the same type of tasks. I tend to save helpful resources as bookmarks in my browser because you never know when you might need to revisit specific material.
 
 ### Employers sometimes ask for examples of work that you have successfully completed to demonstrate your skills, knowledge, and experience. What from this particular assignment might you want to showcase to a future employer?
+I would showcase my ability to run and read vulnerability asessement reports. I feel that I spent a lot of time learning about how to read these reports, so I feel more comfortable with them. I am also getting better with encryption and hashing algorithms, so I think I could show this part of my assignment to future employers as well. I still feel like I could be better at doing these tasks, but since this was just one instance of doing them, I would hope that a future employer would understand that as a student, I have not seen everything that there is to see. I expect that as an employee, there will be situations where I will utilize these skills to improve my abilities. 
