@@ -14,11 +14,10 @@ I believe I did well in using the Maven Dependency check to identify security vu
 The most challenging aspect of the vulnerability assesement was determining which dependencies the application was or was not using. This was important to know when evaluating which vulnerabilites were considered false positives. Updating the spring-boot-parent version to the most recent release definitely helped with narrowing this list of possible false positives down.
 
 ### How did you approach the need to increase layers of security? What techniques or strategies would you use in the future to assess vulnerabilities and determine mitigation techniques?
-
-
-
+I approached the need to increase layers of security by using encryption and hashing algorithms to create a more securte application in addition to an SSL certifiacte and keystore to ensure that data tranferred within the application was secure. I also ensured that the application's dependencies were free of critical vulnerabilities using a vulnerability asessement. In the future, I will use these same techniques and do a manual code review to ensure that there are no vulnerabilities and if there are, I will use appropriate encryption and hashing algorithms to mitigate those vulnerabilites. 
 
 ### How did you ensure the code and software application were functional and secure? After refactoring code, how did you check to see whether you introduced new vulnerabilities?
+I tested each aspect 
 
 
 ### What resources, tools, or coding practices did you employ that you might find helpful in future assignments or tasks?
